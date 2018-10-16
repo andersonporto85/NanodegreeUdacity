@@ -1,9 +1,11 @@
 # -*- coding: cp1252 -*-
 import webbrowser
 
+
 class Movie():
-    """essa classe fornece uma maneira de armazenar informações relacionadas a filmes"""
-    
+
+    """fornece uma maneira de armazenar informações relacionadas a filmes"""
+
     def __init__(self, movie_title, poster_image, trailer_youtube):
         self.title = movie_title
         self.poster_image_url = poster_image
@@ -11,6 +13,7 @@ class Movie():
 
     def show_trailer(self):
         webbrowser.open(self.trailer_youtube_url)
+
 
 
 
