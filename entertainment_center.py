@@ -37,5 +37,3 @@ movies = [avengers, freira, venom, velozes, resgate, gladiador]
 
 # cria a page de filmes a partir da lista movies que foi passada como parametro
 fresh_tomatoes.open_movies_page(movies)
- 
-
